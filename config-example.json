@@ -1,0 +1,26 @@
+{
+  "hudEnabled": true,
+  "hudYOffset": 8,
+  "hudX": 0.5,
+  "hudY": 0.015,
+  "hudScale": 0.82,
+  "requireConfirmation": true,
+  "restrictToRaidMine": true,
+  "allowedAddressFragments": [
+    "raidmine"
+  ],
+  "accentColor": -23782,
+  "accentColorSecondary": -42496,
+  "autoScreenshot": true,
+  "mentionNotifications": true,
+  "forbiddenWordAlerts": true,
+  "punishmentReasonTemplate": "{rule}",
+  "forbiddenWords": [
+    "пример запрещённого слова"
+  ],
+  "warnCommand": "warn {player} {reason}",
+  "muteCommand": "mute {player} {duration} {reason}",
+  "banCommand": "ban {player} {duration} {reason}",
+  "permanentBanCommand": "ban {player} permanent {reason}",
+  "kickCommand": "kick {player} {reason}"
+}
